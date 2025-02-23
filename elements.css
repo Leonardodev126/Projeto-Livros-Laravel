@@ -1,0 +1,43 @@
+#header-1 {
+    border: 1px solid #DBDFE7;
+}
+
+
+
+
+nav {
+    /* border: 1px solid red; */
+    width: 385px;
+    height: 37px;
+    display: flex;
+    margin-left: 14px;
+}
+
+#header-meio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #DBDFE7;
+    height: 70px;
+    padding: 1rem;
+}
+
+button {
+    display: flex;
+    height: 37px;
+    margin-right: 8px;
+    
+}
+
+.container-1 header #header-meio > div:nth-child(1) h2 {
+    font: 500 16px/20.16px "Plus Jakarta Sans", sans-serif;
+    color: #000000;
+    margin-top: 12px;
+}
+
+#div-caixas {
+    margin-top: 1.5rem;
+    width: 1281px;
+    max-height: 190px;
+    border: 1px solid;
+}

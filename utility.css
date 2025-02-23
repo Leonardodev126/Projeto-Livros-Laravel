@@ -1,0 +1,15 @@
+.container-1 {
+    margin-top: 28px;
+    height: 774px;
+    --max-width: 1378px; 
+    /* width: min(var(--max-width), 100% - var(--px-lg) * 2); Pege o menor valor entre 375px e 327px(Resultado do cálculo) */
+    max-width: var(--max-width);
+    width: 100% - 67px * 2;
+    margin-inline: auto;
+    border: 1px solid red;
+}
+
+
+.flex {
+    display: flex;
+}

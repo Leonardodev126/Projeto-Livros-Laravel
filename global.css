@@ -1,0 +1,24 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --jakarta: "Plus Jakarta Sans", serif;
+    --header: 500/17.64px 14px var(--jakarta) var(--color-1);
+
+
+    /* Colors */
+    --color-1: #9299AB;
+
+}
+html, 
+body {
+    height: 100%;
+}
+
+body {
+    background-color: #FFFFFF;
+}

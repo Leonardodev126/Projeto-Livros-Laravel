@@ -1,0 +1,72 @@
+.navegacao {
+    display: flex;
+    justify-content: ;
+    align-items: center;
+    gap: 0.7rem;
+    margin-top: 9px;
+}
+
+.navegacao input {
+    width: 385px;
+    height: 37px;
+    border: none;
+}
+
+.navegacao input::placeholder {
+    color: #9299AB;   /* Cor do texto do placeholder */
+    font-size: 14px;  /* Tamanho da fonte */
+    font-weight: 500; /* Peso da fonte */
+    opacity: 1; 
+}
+
+.lupa {
+    width: 17px;
+    height: 17px;
+}
+
+.btn-primary {
+    color: #ffff;
+}
+
+.white {
+    color: white;
+}
+
+.div-one {
+    display: flex;
+
+}
+
+.container {
+    min-width: 1281px;
+    min-height: 190px;
+    border: 1px solid;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 50px;
+    flex-grow: 1;
+    
+
+}
+
+.book-1 {
+    display: flex;
+    height: auto;
+}
+
+.book-2 {
+    
+
+}
+
+.book-3 {
+    
+
+}
+
+.book-4 {
+
+
+
+}
+
