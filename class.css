@@ -40,7 +40,7 @@
 .container {
     min-width: 1281px;
     min-height: 190px;
-    border: 1px solid;
+    /* border: 1px solid; */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     height: 50px;
@@ -54,19 +54,29 @@
     height: auto;
 }
 
-.book-2 {
-    
 
+
+.book-card {
+    width: 200px;
+    text-align: center;
+}
+.book-cover {
+    width: 100%;
+    height: auto;
 }
 
-.book-3 {
-    
-
+.livro {
+    height: 190px;
+    display: flex;
+    position: relative;
+    left: -13px;
+    top: -1px;
 }
 
-.book-4 {
-
-
-
+.margin-top {
+    margin-top: 20px;
 }
 
+.margin-bottom {
+    margin-bottom: 20px;
+}

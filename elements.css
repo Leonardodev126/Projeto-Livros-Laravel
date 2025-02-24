@@ -2,11 +2,11 @@
     border: 1px solid #DBDFE7;
 }
 
-
-
+.borda {
+    border: 1px solid #DBDFE7;
+}
 
 nav {
-    /* border: 1px solid red; */
     width: 385px;
     height: 37px;
     display: flex;
@@ -40,4 +40,10 @@ button {
     width: 1281px;
     max-height: 190px;
     border: 1px solid;
+}
+
+
+#div-livro-1 {
+    position: relative;
+    left: 1px;
 }

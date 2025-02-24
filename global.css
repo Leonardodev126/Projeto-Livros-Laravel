@@ -8,6 +8,7 @@
 :root {
     --jakarta: "Plus Jakarta Sans", serif;
     --header: 500/17.64px 14px var(--jakarta) var(--color-1);
+    --p1: 500/20.16px 16px var(--jakarta) red;
 
 
     /* Colors */
@@ -16,7 +17,7 @@
 }
 html, 
 body {
-    height: 100%;
+    height: 1280px;
 }
 
 body {
